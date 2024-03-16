@@ -1,5 +1,5 @@
 import express from 'express'
-import { allShows, allShowsNoFilter, createShow, getShow } from '../controllers/Show.js'
+import { allShows, allShowsNoFilter, createShow, getShow } from '../controllers/show.js'
 import { verifyAdmin, verifyUser } from '../middleware/verifyUser.js'
 
 const showRoutes = express.Router()

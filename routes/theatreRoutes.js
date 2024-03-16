@@ -1,5 +1,5 @@
 import express from 'express'
-import { allTheatre, createTheatre } from '../controllers/Theatre.js'
+import { allTheatre, createTheatre } from '../controllers/theatre.js'
 import { verifyAdmin, verifyUser } from '../middleware/verifyUser.js'
 
 const theatreRoutes = express.Router()

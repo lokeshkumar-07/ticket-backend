@@ -1,5 +1,5 @@
 import express from 'express'
-import { googleSignIn, loginUser, registerUser } from '../controllers/User.js'
+import { googleSignIn, loginUser, registerUser } from '../controllers/user.js'
 
 const userRoutes = express.Router()
 

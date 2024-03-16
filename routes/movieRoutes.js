@@ -1,5 +1,5 @@
 import express from 'express'
-import { allMovies, createMovie, deleteMovie, getMovie } from '../controllers/Movies.js'
+import { allMovies, createMovie, deleteMovie, getMovie } from '../controllers/movies.js'
 import { verifyAdmin, verifyUser } from '../middleware/verifyUser.js'
 
 const movieRoutes = express.Router()
